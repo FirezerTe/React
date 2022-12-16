@@ -118,12 +118,12 @@ export default function LOGIN() {
         <div className="form">
             <form onSubmit={handleSubmit}>
                 <div className="input-container">
-                    <label>Username </label>
+                    <label>User Name </label>
                     <input type="text" name="uname" required />
                     {renderErrorMessage("uname")}
                 </div>
                 <div className="input-container">
-                    <label>Password </label>
+                    <label>Pass word </label>
                     <input type="password" name="pass" required />
                     {renderErrorMessage("pass")}
                 </div>
