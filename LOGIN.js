@@ -45,43 +45,14 @@ export default function LOGIN() {
     };
     function routeChange() {
         return (
-           // <Router>
              <div>
-
-              <h1>Welcome</h1>  Welcome
-              //      <NavMenu />
-               
+              <h1>Welcome</h1>  
+                   <NavMenu />
                 </div>
-          //  </Router>
+
          )  
             
     }
-    //function routeChange  ()  {
-    //    {
-
-      
-
-
-    //        return (
-    //            //<>
-    //            //< Routes >
-
-                //    <Route path='/counter' component={Counter} />
-                //    </Routes >
-                //    </>
-            
-
-                //<div className="loginpage">
-                //    <Counter />
-                   
-
-                //    </div>
-                //)
-              
-            
-            
-        //}
-     
     
 
     const handleSubmit = (event) => {
