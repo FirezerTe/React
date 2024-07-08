@@ -40,8 +40,8 @@ export default function LOGIN() {
     ];
 
     const errors = {
-        uname: "invalid username",
-        pass: "invalid password"
+        uname: "wrong username",
+        pass: "wrong password"
     };
     function routeChange() {
         return (
